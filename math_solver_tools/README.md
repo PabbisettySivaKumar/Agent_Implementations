@@ -45,8 +45,7 @@ math_solver_tools
 │
 └── README.md
     └─ Project overview, setup instructions, and API usage examples.
-
-
+```
 ## Installation
 1. Clone the Repository
 ```bash
