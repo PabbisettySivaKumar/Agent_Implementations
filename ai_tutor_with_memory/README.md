@@ -8,16 +8,23 @@ AI Tutor with Memory is an intelligent, privacy-preserving tutoring assistant bu
 It can:
 
 -Remember previous questions and answers (context-aware tutoring)
+
 -Retrieve past discussions using vector embeddings
+
 -Generate explanations, examples, and practice questions
+
 -Run fully offline — all models are local (no cloud dependency)
 
 The app uses:
 
 -mistral:latest (or any Ollama model of your choice) for reasoning
+
 -nomic-embed-text:latest for generating embeddings
+
 -Chroma for persistent local memory
+
 -Streamlit for a fast and simple user interface
+
 ---
 ## Project Structure
 
@@ -94,18 +101,24 @@ Open the local URL (usually http://localhost:8501/) in your browser.
 1. Type your question (math, coding, general knowledge, etc.)
 2. Press Ask — the tutor will:
         -Retrieve relevant context from your saved memory
+
         -Generate a step-by-step answer
+
         -Suggest a small practice question
+
 3. Each Q/A pair is stored in Chroma for future sessions.
 Memory persists even after you close the app!
 ---
 ## Example Questions
 -“Explain the Pythagorean theorem with an example.”
+
 -“Differentiate x² + 3x + 2.”
+
 -“What’s a binary search algorithm?”
+
 -“Give me an exercise to practice derivatives.”
 ---
-Clearing Memory
+## Clearing Memory
 To reset or start fresh:
 ```bash
 rm -rf ./chroma_persist
