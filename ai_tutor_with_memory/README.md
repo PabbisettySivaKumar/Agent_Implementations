@@ -102,20 +102,23 @@ Open the local URL (usually http://localhost:8501/) in your browser.
 2. Press Ask — the tutor will:
 
     -Retrieve relevant context from your saved memory
+
     -Generate a step-by-step answer
+
     -Suggest a small practice question
 
 3. Each Q/A pair is stored in Chroma for future sessions.
 Memory persists even after you close the app!
 ---
 ## Example Questions
--“Explain the Pythagorean theorem with an example.”
+1.Explain the Pythagorean theorem with an example.
 
--“Differentiate x² + 3x + 2.”
+2.“Differentiate x² + 3x + 2.
 
--“What’s a binary search algorithm?”
+3.What’s a binary search algorithm?
 
--“Give me an exercise to practice derivatives.”
+4.Give me an exercise to practice derivatives.
+
 ---
 ## Clearing Memory
 To reset or start fresh:
