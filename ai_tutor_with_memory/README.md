@@ -54,7 +54,7 @@ ai_tutor_with_memory/
 
 ### 1. Clone & enter the project
 ```bash
-git clone https://github.com/yourusername/ai_tutor_with_memory.git
+git clone https://github.com/PabbisettySivaKumar/Agent_Implementations.git
 cd ai_tutor_with_memory
 ```
 ### 2. Create & activate a virtual environment
