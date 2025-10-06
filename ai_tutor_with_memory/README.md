@@ -96,15 +96,14 @@ Once Ollama is running:
 streamlit run app.py
 ```
 Open the local URL (usually http://localhost:8501/) in your browser.
-
+---
 ## Using the Tutor
 1. Type your question (math, coding, general knowledge, etc.)
 2. Press Ask — the tutor will:
-        -Retrieve relevant context from your saved memory
 
-        -Generate a step-by-step answer
-
-        -Suggest a small practice question
+    -Retrieve relevant context from your saved memory
+    -Generate a step-by-step answer
+    -Suggest a small practice question
 
 3. Each Q/A pair is stored in Chroma for future sessions.
 Memory persists even after you close the app!
