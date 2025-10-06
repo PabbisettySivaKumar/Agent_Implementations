@@ -40,7 +40,7 @@ Serper API key
 
 Clone repo
 ```bash
-git clone https://github.com/<your-username>/movie_genre_guesser.git
+git clone https://github.com/PabbisettySivaKumar/Agent_Implementations.git
 cd movie_genre_guesser
 ```
 Create venv & install deps

@@ -77,8 +77,7 @@ ollama serve
 ```
 3. Pull the models:
 ```bash
-ollama pull mistral:latest
-ollama pull nomic-embed-text:latest
+ollama pull llama3.1:latest
 ```
 ---
 ### Setup Environment Variables

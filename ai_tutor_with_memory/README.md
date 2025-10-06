@@ -125,5 +125,3 @@ To reset or start fresh:
 ```bash
 rm -rf ./chroma_persist
 ```
-
-
