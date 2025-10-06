@@ -111,13 +111,13 @@ Open the local URL (usually http://localhost:8501/) in your browser.
 Memory persists even after you close the app!
 ---
 ## Example Questions
-1.Explain the Pythagorean theorem with an example.
+1. Explain the Pythagorean theorem with an example.
 
-2.“Differentiate x² + 3x + 2.
+2. Differentiate x² + 3x + 2.
 
-3.What’s a binary search algorithm?
+3. What’s a binary search algorithm?
 
-4.Give me an exercise to practice derivatives.
+4. Give me an exercise to practice derivatives.
 
 ---
 ## Clearing Memory
