@@ -1,0 +1,60 @@
+{
+  "name": "Exam Answer Revisor",
+  "description": "An AI flow that revises and grades student exam answers.",
+  "nodes": [
+    {
+      "id": "input_student",
+      "type": "TextInput",
+      "data": {
+        "name": "Student Answer",
+        "text": "Paste your exam answer here"
+      },
+      "position": {"x": 100, "y": 100}
+    },
+    {
+      "id": "input_question",
+      "type": "TextInput",
+      "data": {
+        "name": "Question",
+        "text": "Enter the exam question (optional)"
+      },
+      "position": {"x": 100, "y": 300}
+    },
+    {
+      "id": "prompt",
+      "type": "PromptTemplate",
+      "data": {
+        "template": "You are an expert exam evaluator.\n\nQuestion:\n{question}\n\nStudent's Answer:\n{student_answer}\n\nYour tasks:\n1. Correct grammar and clarity.\n2. Keep an academic tone.\n3. Revise meaningfully if required.\n4. Provide brief feedback.\n5. Grade the answer out of 10.\n\nOutput format:\nRevised Answer:\n<revised_answer>\n\nFeedback:\n<feedback>\n\nMarks: <marks>/10"
+      },
+      "position": {"x": 400, "y": 200},
+      "inputs": {
+        "student_answer": "input_student",
+        "question": "input_question"
+      }
+    },
+    {
+      "id": "llm",
+      "type": "LLM",
+      "data": {
+        "model_name": "llama3",
+        "temperature": 0.3,
+        "provider": "ollama"
+      },
+      "position": {"x": 700, "y": 200},
+      "inputs": {"prompt": "prompt"}
+    },
+    {
+      "id": "output",
+      "type": "ChatOutput",
+      "data": {"name": "Revised Answer Output"},
+      "position": {"x": 1000, "y": 200},
+      "inputs": {"input": "llm"}
+    }
+  ],
+  "edges": [
+    {"source": "input_student", "target": "prompt"},
+    {"source": "input_question", "target": "prompt"},
+    {"source": "prompt", "target": "llm"},
+    {"source": "llm", "target": "output"}
+  ]
+}
