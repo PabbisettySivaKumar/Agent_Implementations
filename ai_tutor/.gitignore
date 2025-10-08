@@ -1,0 +1,58 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Mac / Linux system files
+.DS_Store
+Thumbs.db
+
+# Ollama model cache (if you store local weights)
+ollama_models/
+
+# -------------------------
+# Project-specific
+# -------------------------
+
+# Environment variables (Serper API key)
+.env
+
+# Uvicorn/ FastAPI reload artifacts
+*.pid
+*.db
+
+# Reports, outputs, temporary files
+*.csv
+*.jsonl
+*.tmp
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/

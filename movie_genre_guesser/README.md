@@ -1,4 +1,4 @@
-🎬 Movie Genre Guesser
+Movie Genre Guesser
 
 An AI-powered API that predicts a movie’s genres using:
 
@@ -8,15 +8,15 @@ Ollama LLM → extracts and normalizes genres
 
 FastAPI → serves results via REST API
 
-⚡ Features
+Features
 
-✅ Guess movie genres from a title (or description)
-✅ Uses real-time search results (via Serper)
-✅ Leverages local LLM (Ollama) for genre extraction
-✅ Always returns clean JSON output
-✅ Modular code (separate files for Serper, LLM, core logic, API)
+Guess movie genres from a title (or description)
+Uses real-time search results (via Serper)
+Leverages local LLM (Ollama) for genre extraction
+Always returns clean JSON output
+Modular code (separate files for Serper, LLM, core logic, API)
 
-📂 Project Structure
+Project Structure
 
  ```bash
 
@@ -29,14 +29,14 @@ movie_genre_guesser/
 │── .env               # API key (not committed to GitHub)
 ```
 
-🔑 Requirements
+Requirements
 
 Python 3.9+
 
 Ollama installed locally
 Serper API key
 
-⚙️ Setup
+Setup
 
 Clone repo
 ```bash
@@ -61,7 +61,7 @@ Run API
 uvicorn main:app --reload
 ```
 
-🚀 Usage
+Usage
 
 Open in browser or use curl:
 ```nginx
@@ -74,14 +74,14 @@ Example Response:
   "genres": ["Action", "Sci-Fi", "Thriller"]
 }
 ```
-🧩 Example Movies
+Example Movies
 ```bash
 /guess_genre?movie=Bahubali
 /guess_genre?movie=Tenet
 /guess_genre?movie=Batman
 ```
 
-🛠️ Tech Stack
+Tech Stack
 
 FastAPI – API framework
 
