@@ -116,7 +116,7 @@ Open Neo4j browser → [http://localhost:7474](http://localhost:7474)
 
 ## ▶️ Run Streamlit
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app.py
 ```
 
 ---
