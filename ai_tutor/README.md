@@ -216,7 +216,7 @@ ORDER BY avg_percent DESC LIMIT 10;
 ---
 
 ## 🧾 License
-MIT License © 2025 [Your Name]
+MIT License © 2025 [@itsPSK95][https://x.com/itsPSK95]
 
 ---
 
