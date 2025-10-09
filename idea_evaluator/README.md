@@ -43,7 +43,7 @@ idea_evaluator/
 
 ### 2️⃣ Clone and Install
 ```bash
-git clone https://github.com/yourusername/idea_evaluator.git
+git clone https://github.com/PabbisettySivaKumar/Agent_Implementations.git
 cd idea_evaluator
 pip install -r requirements.txt
 ```

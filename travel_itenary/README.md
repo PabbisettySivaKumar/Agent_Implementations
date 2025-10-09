@@ -56,7 +56,7 @@ travel_itenary/
 
 ```bash
 # Clone the repository
-git https://github.com/yourusername/idea_evaluator.git
+git https://github.com/PabbisettySivaKumar/Agent_Implementations.git
 cd travel-itinerary-agents
 
 # Create virtual environment
