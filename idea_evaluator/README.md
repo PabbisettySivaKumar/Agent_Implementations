@@ -101,5 +101,6 @@ Comment: A well-rounded idea combining technology, social impact, and scalabilit
 
 ## 👨‍💻 Author
 
-**Siva Kumar**  
+**Siva Kumar** [@itsPSK95][https://x.com/itsPSK95]  
 Built with ❤️ using LangChain + Ollama
+
